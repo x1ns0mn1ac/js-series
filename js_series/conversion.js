@@ -15,4 +15,4 @@ let boolean = Boolean(trueorfalse)
 console.log(boolean)
 
 // if empty - false
-// if filled with anything - true
+// if filled with anything - truee
