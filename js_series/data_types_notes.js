@@ -12,7 +12,7 @@
 const id = Symbol('123)')
 const anotherid = Symbol('123')
 
-console.log(id === anotherid);
+//console.log(id === anotherid);
 
 const myArray = ["sdlfkds", "jdfdskf"];
 
@@ -23,5 +23,29 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hellow worldo");
+    //console.log("Hellow worldo");
 }
+
+// ---------------------------
+
+// stack - it references a copy instead of the original
+// heap - it references the original 
+
+let myEmail = "jerrythemouse@gmail.com"
+let herEmail = myEmail
+herEmail = "tomthecat@gmail.com"
+
+console.log(myEmail);
+console.log(herEmail);
+
+let myName = {
+    name: "shaggy"
+}
+
+let herName = myName
+herName.name = "velma"
+
+console.log(myName.name);
+console.log(herName.name);
+
+
