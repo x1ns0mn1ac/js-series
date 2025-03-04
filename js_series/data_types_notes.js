@@ -28,8 +28,8 @@ const myFunction = function(){
 
 // ---------------------------
 
-// stack - it references a copy instead of the original
-// heap - it references the original 
+// stack - it references a copy instead of the original // call by value
+// heap - it references the original // call by reference
 
 let myEmail = "jerrythemouse@gmail.com"
 let herEmail = myEmail
